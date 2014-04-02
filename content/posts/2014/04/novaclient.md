@@ -17,6 +17,7 @@ Nova的API, 默认都在nova.api.openstack.compute.contrib里, 所以你写的AP
 
 Controller是一个普通的object就可以了, extension必须继承extensions.ExtensionDescriptor, 并且重写get_resources方法. 这里给出一个最简单的例子来:
 
+    :::python
     from webob import exc
 
     from oslo import messaging
