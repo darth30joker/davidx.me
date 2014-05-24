@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'David Xie'
-SITENAME = "davidx' log"
+SITENAME = u"泥泞的沼泽"
 SITEURL = 'http://davidx.me'
 TIMEZONE = "Asia/Hong_Kong"
 

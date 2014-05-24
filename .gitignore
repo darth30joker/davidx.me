@@ -1,3 +1,4 @@
 output
 *.py[cod]
-
+.DS_Store
+.venv
